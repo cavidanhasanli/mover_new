@@ -38,13 +38,13 @@ class ApiIndexView(APIView):
                 pars = BeautifulSoup(value, "html.parser").find()
                 if pars.get("id", False):
                     parsed_data = "#" + pars.get("id")
-                    result[key] = parsed_data
+                    result[key] = parsed_data + "|" + pars.name
                 elif pars.get("src", False):
                     parsed_data = "@" + pars.get("src")
-                    result[key] = parsed_data
+                    result[key] = parsed_data  + "|" + pars.name
                 elif pars.get("class", False):
                     parsed_data = "." + " ".join(pars.get("class"))
-                    result[key] = parsed_data
+                    result[key] = parsed_data + "|" + pars.name
                 else:
                     tag_name.append(key)
             else:
@@ -58,26 +58,24 @@ class ApiIndexView(APIView):
         clean_data = self.clean_data()
         data = self.get_attribute_from_html(clean_data)
         if isinstance(data, dict):
-            serializer = DataInfo(data=data)
-            if serializer.is_valid():
-                if serializer.is_valid():
-                    detail = ProductTag(**serializer.data)
-                    detail.save()
-                
-                return JsonResponse({'data': serializer.data})
-            return JsonResponse(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+            
+            product = ProductTag.objects.create()
+            product.name = data.get("url")
+            product.bulk_insert(**data)
+            product.save()
+            return JsonResponse({'data': data})
+            # return JsonResponse(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
         else:
             result = data[0]
+            print("ELEMENT",data[1])
             for tag in data[1]:
-                result[key] = self.request.data[data]
-            serializer = DataInfo(data=result)
-            if serializer.is_valid():
-                if serializer.is_valid():
-                    detail = ProductTag(**serializer.data)
-                    detail.save()
-                
-                return JsonResponse({'data': serializer.data})
-            return JsonResponse(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+                result[tag] = self.request.data[tag]
+            product = ProductTag.objects.create()
+            print(result.get("url"))
+            product.name = result.get("url")
+            product.bulk_insert(**result)
+            product.save()
+            return JsonResponse({'data': result})
             
 
 
@@ -89,22 +87,27 @@ class ScraperView(generic.View):
         options.headless = True
         driver = webdriver.Firefox(options=options)
         driver.get(url)
-        for key, value in data.items():
+        pars = BeautifulSoup(driver.page_source, "html.parser")
+        for obj in data:
+            key, value, tag_name = obj.get("field"), obj.get("value"), obj.get("tag_name")
             if value.startswith("."):
-                result[key] = driver.find_element_by_class_name(value[1:]).text
+                result[key] = pars.find_all(tag_name, {"class":value[1:]})[0].text
+                # print("//{}[{}]".format(tag_name," or ".join(["@class='{}'".format(item) for item in value[1:].split(" ")])))
+                # result[key] = driver.find_elements_by_xpath("//{}[{}]".format(tag_name," or ".join(["@class='{}'".format(item) for item in value[1:].split(" ")])))[0].text
             elif value.startswith("@"):
                 result[key] = driver.find_element_by_xpath('//img[@src="{}"]'.format(value[1:])).get_attribute("src")
             elif value.startswith("<"):
                 pars = BeautifulSoup(value, "html.parser").find()
                 result[key] = driver.find_elements_by_xpath("//*[contains(text(), '{}')]".format(pars.text))[0].text
             elif value.startswith("#"):
-                result[key] = driver.find_element_by_id(value[1:]).text
+                result[key] = pars.find_all(tag_name, {"id": value[1:]})[0].text
+                # result[key] = driver.find_element_by_id(value[1:]).text
         driver.quit()
         return result
 
     def get(self, request, *args, **kwargs):
         data = ProductTag.objects.all().last()
-        obj = model_to_dict(data, fields=["name","size","url","color"])
-        latest_result = self.scrapper(data.url, obj)
+        obj = ProductSerializers(data)
+        latest_result = self.scrapper(data.name, obj.data.get("product_tags"))
         return JsonResponse({"status":"OK", "data": latest_result})
 

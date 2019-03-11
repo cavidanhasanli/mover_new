@@ -2,4 +2,13 @@ from django.contrib import admin
 from scrapping_app.models import *
 
 
-admin.site.register(ProductTag)
+class ProductItemTabularInline(admin.TabularInline):
+    model = ProductItem
+    extra = 2
+
+@admin.register(ProductTag)
+class ProductTagAdmin(admin.ModelAdmin):
+    inlines = [ProductItemTabularInline]
+
+
+# admin.site.register(ProductTag)

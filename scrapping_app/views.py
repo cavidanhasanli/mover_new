@@ -32,6 +32,7 @@ class ApiIndexView(APIView):
 
     def get_attribute_from_html(self, data):
         result = {}
+        tag_name = []
         for key, value in data.items():
             if "url" != key:
                 pars = BeautifulSoup(value, "html.parser").find()
@@ -44,23 +45,40 @@ class ApiIndexView(APIView):
                 elif pars.get("class", False):
                     parsed_data = "." + " ".join(pars.get("class"))
                     result[key] = parsed_data
+                else:
+                    tag_name.append(key)
             else:
                 result[key] = value
+        if tag_name:
+            return [result, tag_name]
         return result
 
     def post(self, request, *args, **kwargs):
         
         clean_data = self.clean_data()
         data = self.get_attribute_from_html(clean_data)
-        print(data)
-        serializer = DataInfo(data=data)
-        if serializer.is_valid():
+        if isinstance(data, dict):
+            serializer = DataInfo(data=data)
             if serializer.is_valid():
-                detail = ProductTag(**serializer.data)
-                detail.save()
+                if serializer.is_valid():
+                    detail = ProductTag(**serializer.data)
+                    detail.save()
+                
+                return JsonResponse({'data': serializer.data})
+            return JsonResponse(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        else:
+            result = data[0]
+            for tag in data[1]:
+                result[key] = self.request.data[data]
+            serializer = DataInfo(data=result)
+            if serializer.is_valid():
+                if serializer.is_valid():
+                    detail = ProductTag(**serializer.data)
+                    detail.save()
+                
+                return JsonResponse({'data': serializer.data})
+            return JsonResponse(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
             
-            return JsonResponse({'data': serializer.data})
-        return JsonResponse(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
 class ScraperView(generic.View):
@@ -76,7 +94,9 @@ class ScraperView(generic.View):
                 result[key] = driver.find_element_by_class_name(value[1:]).text
             elif value.startswith("@"):
                 result[key] = driver.find_element_by_xpath('//img[@src="{}"]'.format(value[1:])).get_attribute("src")
-
+            elif value.startswith("<"):
+                pars = BeautifulSoup(value, "html.parser").find()
+                result[key] = driver.find_elements_by_xpath("//*[contains(text(), '{}')]".format(pars.text))[0].text
             elif value.startswith("#"):
                 result[key] = driver.find_element_by_id(value[1:]).text
         driver.quit()
@@ -84,7 +104,7 @@ class ScraperView(generic.View):
 
     def get(self, request, *args, **kwargs):
         data = ProductTag.objects.all().last()
-        obj = model_to_dict(data, fields=["name","size","price","url","image"])
+        obj = model_to_dict(data, fields=["name","size","url","color"])
         latest_result = self.scrapper(data.url, obj)
         return JsonResponse({"status":"OK", "data": latest_result})
 

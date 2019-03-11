@@ -28,11 +28,14 @@ from django.db import models
 #    url = models.URLField(max_length=255)
 #    status = models.ForeignKey("OrderStatus", on_delete=models.CASCADE, 
 #                                null=True,blank=True)
+class ProductItem(models.Model):
+    field = models.Char
+
 class ProductTag(models.Model):
     name = models.CharField(max_length=50)
     price = models.CharField(max_length=50)
     size = models.CharField(max_length=50)
-    #color = models.CharField(max_length=50)
+    color = models.CharField(max_length=50)
     image = models.CharField(max_length=500)
     url = models.URLField(max_length=500)
     

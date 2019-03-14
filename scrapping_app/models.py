@@ -39,7 +39,7 @@ class ProductItem(models.Model):
     
 
 class ProductTag(models.Model):
-    name = models.CharField(max_length=50, default="Product_")
+    name = models.CharField(max_length=500, default="Product_")
 
     def bulk_insert(self, **kwargs):
         for key, value in kwargs.items():

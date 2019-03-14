@@ -57,6 +57,7 @@ class ApiIndexView(APIView):
         
         clean_data = self.clean_data()
         data = self.get_attribute_from_html(clean_data)
+        print(data)
         if isinstance(data, dict):
             
             product = ProductTag.objects.create()
@@ -87,21 +88,32 @@ class ScraperView(generic.View):
         options.headless = True
         driver = webdriver.Firefox(options=options)
         driver.get(url)
+        # print("HTML_SOURCE: ", driver.page_source)
         pars = BeautifulSoup(driver.page_source, "html.parser")
+        #print(dir(pars))
         for obj in data:
             key, value, tag_name = obj.get("field"), obj.get("value"), obj.get("tag_name")
+            print(key, value, tag_name)
+            #print(pars)
             if value.startswith("."):
-                result[key] = pars.find_all(tag_name, {"class":value[1:]})[0].text
+                print("PARS TYPE: ", type(pars))
+                # result[key] = pars.find_all(tag_name, {"class":value[1:]})[0].text
+                result[key] = pars.find_all(tag_name, {"id": value[1:]})[0].text if pars.find_all(tag_name, {"id": value[1:]}) else "yoxdu"
                 # print("//{}[{}]".format(tag_name," or ".join(["@class='{}'".format(item) for item in value[1:].split(" ")])))
-                # result[key] = driver.find_elements_by_xpath("//{}[{}]".format(tag_name," or ".join(["@class='{}'".format(item) for item in value[1:].split(" ")])))[0].text
-            elif value.startswith("@"):
-                result[key] = driver.find_element_by_xpath('//img[@src="{}"]'.format(value[1:])).get_attribute("src")
+                #result[key] = driver.find_elements_by_xpath("//{}[{}]".format(tag_name," or ".join(["@class='{}'".format(item) for item in value[1:].split(" ")])))[0].text
+                
+            # elif value.startswith("@"):
+            #     result[key] = driver.find_element_by_xpath('//*[@src="{}"]'.format(value[1:])).get_attribute("src")
+
             elif value.startswith("<"):
                 pars = BeautifulSoup(value, "html.parser").find()
+                print(pars)
                 result[key] = driver.find_elements_by_xpath("//*[contains(text(), '{}')]".format(pars.text))[0].text
+                
+    
             elif value.startswith("#"):
-                result[key] = pars.find_all(tag_name, {"id": value[1:]})[0].text
-                # result[key] = driver.find_element_by_id(value[1:]).text
+                result[key] = pars.find_all(tag_name, {"id": value[1:]})[0].text if pars.find_all(tag_name, {"id": value[1:]}) else "yoxdu"
+                #result[key] = driver.find_element_by_id(value[1:]).text
         driver.quit()
         return result
 

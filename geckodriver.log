@@ -2137,3 +2137,1345 @@ JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=4
 (/usr/lib/firefox/firefox:3495): dconf-WARNING **: 10:25:23.944: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
 1552631126156	Marionette	INFO	Stopped listening on port 38379
 [Parent 3298, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552631480911	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JDun5ngmmZ36"
+*** You are running in headless mode.
+1552631481186	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552631481186	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552631482180	Marionette	INFO	Listening on port 36665
+1552631482228	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:4649): dconf-WARNING **: 10:31:34.668: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=1478847315.1552631495, line 121: unreachable code after return statement
+1552631497209	Marionette	INFO	Stopped listening on port 36665
+[Parent 4486, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552631802994	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.AnU8KG5yhh4i"
+*** You are running in headless mode.
+1552631803296	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552631803296	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552631804410	Marionette	INFO	Listening on port 36451
+1552631804501	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=695565537.1552631811, line 119: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:5611): dconf-WARNING **: 10:36:52.796: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552631816597	Marionette	INFO	Stopped listening on port 36451
+[Parent 5458, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552631928260	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Ieg6N61p3Egc"
+*** You are running in headless mode.
+1552631928606	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552631928606	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552631929660	Marionette	INFO	Listening on port 43359
+1552631929685	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=883574351.1552631938, line 121: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:6037): dconf-WARNING **: 10:39:00.891: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552631942843	Marionette	INFO	Stopped listening on port 43359
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 5875, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552632047644	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Gy6INB56V4Y7"
+*** You are running in headless mode.
+1552632047935	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552632047935	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552632048438	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HVw8rtVXOdWm"
+*** You are running in headless mode.
+1552632048665	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.EOjl4yoo1qnJ"
+*** You are running in headless mode.
+1552632049038	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552632049039	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552632049202	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552632049202	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552632049392	Marionette	INFO	Listening on port 42105
+1552632049450	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552632050790	Marionette	INFO	Listening on port 45165
+1552632050836	Marionette	INFO	Listening on port 45721
+1552632050867	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552632050882	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=1021794408.1552632056, line 121: unreachable code after return statement
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=1086060638.1552632057, line 121: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:6901): dconf-WARNING **: 10:40:58.320: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+
+(/usr/lib/firefox/firefox:6911): dconf-WARNING **: 10:40:59.956: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+
+(/usr/lib/firefox/firefox:6551): dconf-WARNING **: 10:41:03.573: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=1923973854.1552632060, line 121: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+console.error: BroadcastService: 
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552632074578	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rUdremKRvRnu"
+*** You are running in headless mode.
+1552632074926	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552632074926	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552632076133	Marionette	INFO	Listening on port 45791
+1552632076205	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:7455): dconf-WARNING **: 10:41:24.970: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=680142759.1552632085, line 121: unreachable code after return statement
+1552632089050	Marionette	INFO	Stopped listening on port 45791
+[Parent 7289, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552632107290	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vlDZaTAstBTl"
+*** You are running in headless mode.
+1552632107670	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552632107670	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552632108850	Marionette	INFO	Listening on port 40141
+1552632108914	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=637718947.1552632114, line 119: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:7799): dconf-WARNING **: 10:41:55.862: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552632122298	Marionette	INFO	Stopped listening on port 40141
+[Parent 7647, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552632217639	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mnKCVVr35gUl"
+*** You are running in headless mode.
+1552632217989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552632217990	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552632219274	Marionette	INFO	Listening on port 35479
+1552632219346	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=613161476.1552632226, line 121: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:8501): dconf-WARNING **: 10:43:50.047: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552632303866	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.x7OnlQZj5f7D"
+*** You are running in headless mode.
+1552632304233	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552632304233	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552632305620	Marionette	INFO	Listening on port 42495
+1552632305688	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=1047154123.1552632314, line 121: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:8944): dconf-WARNING **: 10:45:16.278: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552632824037	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uvLYLt5YVi3b"
+*** You are running in headless mode.
+1552632824368	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552632824368	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552632825740	Marionette	INFO	Listening on port 45771
+1552632825749	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=2112280051.1552632834, line 121: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:9677): dconf-WARNING **: 10:53:56.644: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552632927932	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4wd4AZNOl2yx"
+*** You are running in headless mode.
+1552632928290	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552632928290	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552632929587	Marionette	INFO	Listening on port 33733
+1552632929652	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=99252049.1552632938, line 121: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:10110): dconf-WARNING **: 10:55:42.643: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552633501901	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NAVWGYz81wAj"
+*** You are running in headless mode.
+1552633502352	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552633502353	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552633503773	Marionette	INFO	Listening on port 38937
+1552633503839	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=556688163.1552633510, line 121: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:10705): dconf-WARNING **: 11:05:13.351: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552633518124	Marionette	INFO	Stopped listening on port 38937
+[Parent 10544, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 10544, Gecko_IOThread] WARNING: pipe error (50): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552634679983	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vY5nFyqDc1pZ"
+*** You are running in headless mode.
+1552634680339	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552634680340	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552634681708	Marionette	INFO	Listening on port 37341
+1552634681789	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=1035217495.1552634690, line 121: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:11547): dconf-WARNING **: 11:24:54.460: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552634698011	Marionette	INFO	Stopped listening on port 37341
+[Parent 11375, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552634719110	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rYFbajdjmQy5"
+*** You are running in headless mode.
+1552634719685	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552634719685	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552634720883	Marionette	INFO	Listening on port 38117
+1552634720937	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552634723809	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XwVfgHKtySek"
+*** You are running in headless mode.
+1552634724170	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552634724171	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552634724560	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.q2tQIun8pGjB"
+*** You are running in headless mode.
+1552634725230	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552634725239	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552634725786	Marionette	INFO	Listening on port 35825
+1552634725865	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552634726987	Marionette	INFO	Listening on port 39605
+1552634727077	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:12549): dconf-WARNING **: 11:25:31.019: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=100182964.1552634731, line 121: unreachable code after return statement
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=843597633.1552634734, line 121: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:12362): dconf-WARNING **: 11:25:37.177: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552634738604	Marionette	INFO	Stopped listening on port 39605
+[Parent 12240, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552634741000	Marionette	INFO	Stopped listening on port 35825
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[Child 6867, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Sandbox: Unexpected EOF, op 0 flags 00 path /usr/share/locale/en_US.UTF-8/LC_MESSAGES/libc.mo
+[Child 7047, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9012, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8944, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 10181, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[Child 10110, Chrome_ChildThread] WARNING: pipe error (36): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 10088, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 7069, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[Child 6841, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 11980, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6551, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6501, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[Child 8501, Chrome_ChildThread] WARNING: pipe error (37): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8475, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9655, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Exiting due to channel error.
+1552635177526	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CICAE9T0M3cM"
+*** You are running in headless mode.
+1552635177857	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552635177857	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552635178669	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.EEesuSpfMHp0"
+*** You are running in headless mode.
+1552635179020	Marionette	INFO	Listening on port 37957
+1552635179039	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552635179039	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552635179054	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552635180282	Marionette	INFO	Listening on port 45053
+1552635180407	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=2121804279.1552635186, line 121: unreachable code after return statement
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=311234492.1552635184, line 119: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:13642): dconf-WARNING **: 11:33:07.728: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+
+(/usr/lib/firefox/firefox:13886): dconf-WARNING **: 11:33:10.687: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552635668592	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jFRSEl1GOMau"
+*** You are running in headless mode.
+1552635668928	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552635668928	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552635669982	Marionette	INFO	Listening on port 39883
+1552635670004	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:14919): dconf-WARNING **: 11:41:15.378: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=150682545.1552635675, line 121: unreachable code after return statement
+[Parent 14763, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 718
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552635723480	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LYt62KMJnZkT"
+*** You are running in headless mode.
+1552635723842	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552635723842	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552635725050	Marionette	INFO	Listening on port 41841
+1552635725100	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=1682834262.1552635730, line 121: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:15325): dconf-WARNING **: 11:42:15.610: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552635826335	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HWUEyvQkM7c6"
+*** You are running in headless mode.
+1552635826676	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552635826677	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552635827828	Marionette	INFO	Listening on port 38577
+1552635827860	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=1708921477.1552635836, line 119: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:15712): dconf-WARNING **: 11:44:01.514: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552636602958	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sNMlBy0i5BEu"
+*** You are running in headless mode.
+1552636603322	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552636603322	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552636604649	Marionette	INFO	Listening on port 34373
+1552636604686	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=1195083809.1552636612, line 121: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:16679): dconf-WARNING **: 11:56:57.206: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+[Parent 16524, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 718
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552636762278	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bZMyqixGVSOa"
+*** You are running in headless mode.
+1552636762649	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552636762649	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552636763876	Marionette	INFO	Listening on port 42585
+1552636763901	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-N737LVH&cid=1715239454.1552636771, line 121: unreachable code after return statement
+
+(/usr/lib/firefox/firefox:17101): dconf-WARNING **: 11:59:34.265: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552636776753	Marionette	INFO	Stopped listening on port 42585
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 16944, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552636946961	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jwz3VWxixDOI"
+*** You are running in headless mode.
+1552636947374	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552636947374	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552636948852	Marionette	INFO	Listening on port 45615
+1552636948883	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552636954049	Marionette	INFO	Stopped listening on port 45615
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Parent 17694, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552636990620	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.W7Q5Y61KEAra"
+*** You are running in headless mode.
+1552636991074	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552636991074	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552636992397	Marionette	INFO	Listening on port 37335
+1552636992454	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552636997110	Marionette	INFO	Stopped listening on port 37335
+[Parent 18067, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+1552637062620	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vEvRJhr847xB"
+*** You are running in headless mode.
+1552637063019	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552637063019	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552637064402	Marionette	INFO	Listening on port 44537
+1552637064474	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www2.hm.com/etc/designs/hm/clientlibs/shared/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www2.hm.com/etc/designs/hm/clientlibs/desktop.min.11.1.19.js, line 15196: unreachable code after return statement
+1552637070584	Marionette	INFO	Stopped listening on port 44537
+1552637151592	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6rnbOzthrzD5"
+*** You are running in headless mode.
+1552637152079	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552637152081	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552637153525	Marionette	INFO	Listening on port 42009
+1552637153614	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552637173073	Marionette	INFO	Stopped listening on port 42009
+1552639756512	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uKHJAKQGsSNd"
+*** You are running in headless mode.
+1552639756918	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552639756918	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552639758320	Marionette	INFO	Listening on port 41087
+1552639758452	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://marcf11112.addressy.com/js/sensor.js, line 3: SyntaxError: expected expression, got '<'
+1552639765820	Marionette	INFO	Stopped listening on port 41087
+JavaScript error: https://static.www.turnto.com/tra4_3/cors/easyXDM.v2.4.15.min.js, line 24: TypeError: right-hand side of 'in' should be an object, got null
+[Parent 21004, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5F0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1552639858445	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BevFitHrw9Qh"
+*** You are running in headless mode.
+1552639858813	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552639858813	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552639860130	Marionette	INFO	Listening on port 43505
+1552639860181	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://marcf11112.addressy.com/js/sensor.js, line 3: SyntaxError: expected expression, got '<'
+1552639867986	Marionette	INFO	Stopped listening on port 43505
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Parent 21595, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552639944138	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5nVlvLeg6CVD"
+*** You are running in headless mode.
+1552639944558	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552639944558	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552639945936	Marionette	INFO	Listening on port 42657
+1552639945956	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://marcf11112.addressy.com/js/sensor.js, line 3: SyntaxError: expected expression, got '<'
+1552639952354	Marionette	INFO	Stopped listening on port 42657
+[Parent 22061, Gecko_IOThread] WARNING: pipe error (120): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552644621365	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HXzWKJ2TUulY"
+*** You are running in headless mode.
+1552644621712	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552644621712	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552644622951	Marionette	INFO	Listening on port 46123
+1552644622982	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-PRVFGSN&t=gtm43&cid=524430629.1552644626, line 124: unreachable code after return statement
+1552644631516	Marionette	INFO	Stopped listening on port 46123
+JavaScript error: , line 0: uncaught exception: [object Object]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 24536, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552644688476	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.12QbwHZRwc4r"
+*** You are running in headless mode.
+1552644688820	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552644688821	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552644690157	Marionette	INFO	Listening on port 34199
+1552644690212	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-PRVFGSN&t=gtm43&cid=226371159.1552644692, line 124: unreachable code after return statement
+1552644699538	Marionette	INFO	Stopped listening on port 34199
+JavaScript error: , line 0: uncaught exception: [object Object]
+1552644997525	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TROLOB6rCxo5"
+*** You are running in headless mode.
+1552644997913	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552644997913	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552644999206	Marionette	INFO	Listening on port 42041
+1552644999245	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-PLHPTFK&cid=497749724.1552645001, line 102: unreachable code after return statement
+JavaScript error: https://ssif1.globalsign.com/SiteSeal/siteSeal/siteSeal/siteSeal.do?p1=www.koton.com&p2=SZ90-35&p3=image&p4=en&p5=V0023&p6=S001&p7=https, line 239: TypeError: imgtag is null
+JavaScript error: https://seal.globalsign.com/SiteSeal/gmogs_image_90-35_en_dblue.js, line 36: TypeError: siteSeal is null
+JavaScript warning: https://koton.api.useinsider.com/ins.js?id=10000727, line 826: unreachable code after return statement
+1552645012927	Marionette	INFO	Stopped listening on port 42041
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Parent 25870, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552645556548	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.v5a0gZEJrN1w"
+*** You are running in headless mode.
+1552645556884	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552645556884	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552645558069	Marionette	INFO	Listening on port 35953
+1552645558159	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.pierrecardin.com.tr/styles/joinedFiles/compressed/emos_header_20190311-110727.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1552645567444	Marionette	INFO	Stopped listening on port 35953
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+1552645671781	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pq5mpdwQ8OUC"
+*** You are running in headless mode.
+1552645672144	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552645672144	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552645673559	Marionette	INFO	Listening on port 36175
+1552645673611	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.pierrecardin.com.tr/styles/joinedFiles/compressed/emos_header_20190311-110727.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552646266108	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.llyPaiaonUKw"
+*** You are running in headless mode.
+1552646266453	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552646266453	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552646267714	Marionette	INFO	Listening on port 35279
+1552646267813	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.pierrecardin.com.tr/styles/joinedFiles/compressed/emos_header_20190311-110727.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552646543939	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OFucOjqk24Q3"
+*** You are running in headless mode.
+1552646544295	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552646544296	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552646545611	Marionette	INFO	Listening on port 38539
+1552646545661	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tr.uspoloassn.com/styles/joinedFiles/compressed/emos_header_20190312-104421.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1552646557216	Marionette	INFO	Stopped listening on port 38539
+[Parent 28594, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1552646612785	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tHYGIxvU65SR"
+*** You are running in headless mode.
+1552646613165	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552646613165	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552646614864	Marionette	INFO	Listening on port 44417
+1552646614896	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tr.uspoloassn.com/styles/joinedFiles/compressed/emos_header_20190312-104421.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552646701039	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.38FxxLcXE8jJ"
+*** You are running in headless mode.
+1552646701615	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552646701616	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552646704270	Marionette	INFO	Listening on port 41847
+1552646704345	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://network.api.useinsider.com/ins.js?id=10001649, line 2: unreachable code after return statement
+JavaScript warning: https://network.api.useinsider.com/ins.js?id=10001649, line 2: unreachable code after return statement
+JavaScript warning: https://network.api.useinsider.com/ins.js?id=10001649, line 2: unreachable code after return statement
+JavaScript warning: https://network.api.useinsider.com/ins.js?id=10001649, line 2: unreachable code after return statement
+JavaScript warning: https://network.api.useinsider.com/ins.js?id=10001649, line 2: unreachable code after return statement
+JavaScript warning: https://network.api.useinsider.com/ins.js?id=10001649, line 2: unreachable code after return statement
+JavaScript warning: https://network.api.useinsider.com/ins.js?id=10001649, line 2: unreachable code after return statement
+JavaScript warning: https://network.api.useinsider.com/ins.js?id=10001649, line 2: unreachable code after return statement
+1552646721135	Marionette	INFO	Stopped listening on port 41847
+1552646768541	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uY7LEJ1sLBKS"
+*** You are running in headless mode.
+1552646768984	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552646768984	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552646770332	Marionette	INFO	Listening on port 42103
+1552646770359	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://network.api.useinsider.com/ins.js?id=10001649, line 2: unreachable code after return statement
+JavaScript warning: https://network.api.useinsider.com/ins.js?id=10001649, line 2: unreachable code after return statement
+JavaScript warning: https://network.api.useinsider.com/ins.js?id=10001649, line 2: unreachable code after return statement
+JavaScript warning: https://network.api.useinsider.com/ins.js?id=10001649, line 2: unreachable code after return statement
+JavaScript warning: https://network.api.useinsider.com/ins.js?id=10001649, line 2: unreachable code after return statement
+JavaScript warning: https://network.api.useinsider.com/ins.js?id=10001649, line 2: unreachable code after return statement
+JavaScript warning: https://network.api.useinsider.com/ins.js?id=10001649, line 2: unreachable code after return statement
+JavaScript warning: https://network.api.useinsider.com/ins.js?id=10001649, line 2: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552647015486	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.m1FjFo3E6O6I"
+*** You are running in headless mode.
+1552647015862	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552647015862	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552647017238	Marionette	INFO	Listening on port 41573
+1552647017323	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img-flo.mncdn.com/media/js/6e81e99566536271843e38daf213f85f_505.js, line 11787: unreachable code after return statement
+JavaScript warning: https://img-flo.mncdn.com/media/js/6e81e99566536271843e38daf213f85f_505.js, line 12374: unreachable code after return statement
+JavaScript warning: https://img-flo.mncdn.com/media/js/6e81e99566536271843e38daf213f85f_505.js, line 12575: unreachable code after return statement
+JavaScript error: https://img-flo.mncdn.com/media/js/6e81e99566536271843e38daf213f85f_505.js, line 6369: TypeError: registry is undefined
+JavaScript error: https://www.flo.com.tr/kinetix-suprem-velcro-w-beyaz-yesil-kadin-sneaker-ayakkabi.html?_sgm_campaign=scn_3a44d7772d59a000&_sgm_source=000000000100323323&_sgm_action=click, line 1443: TypeError: window.insider_object is undefined
+JavaScript error: https://www.flo.com.tr/kinetix-suprem-velcro-w-beyaz-yesil-kadin-sneaker-ayakkabi.html?_sgm_campaign=scn_3a44d7772d59a000&_sgm_source=000000000100323323&_sgm_action=click, line 1: TypeError: document.getElementById(...) is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552647039621	Marionette	INFO	Stopped listening on port 41573
+[Parent 31216, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Child 31366, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 718
+[Child 31366, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 718
+1552647073625	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VBBI7xu8a9vD"
+*** You are running in headless mode.
+1552647074006	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552647074006	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552647075289	Marionette	INFO	Listening on port 46407
+1552647075351	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img-flo.mncdn.com/media/js/6e81e99566536271843e38daf213f85f_505.js, line 11787: unreachable code after return statement
+JavaScript warning: https://img-flo.mncdn.com/media/js/6e81e99566536271843e38daf213f85f_505.js, line 12374: unreachable code after return statement
+JavaScript warning: https://img-flo.mncdn.com/media/js/6e81e99566536271843e38daf213f85f_505.js, line 12575: unreachable code after return statement
+JavaScript error: https://img-flo.mncdn.com/media/js/6e81e99566536271843e38daf213f85f_505.js, line 6369: TypeError: registry is undefined
+JavaScript error: https://www.flo.com.tr/mercedes-maica-lacivert-erkek-deri-city.html, line 1435: TypeError: window.insider_object is undefined
+JavaScript error: https://www.flo.com.tr/mercedes-maica-lacivert-erkek-deri-city.html, line 1: TypeError: document.getElementById(...) is null
+1552647095650	Marionette	INFO	Stopped listening on port 46407
+[Parent 31690, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552647157387	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7pYsDyB1OVHX"
+*** You are running in headless mode.
+1552647157746	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552647157746	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552647159046	Marionette	INFO	Listening on port 41519
+1552647159106	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.cacharel.com.tr/styles/joinedFiles/compressed/emos_header_20190314-152827.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:32220): dconf-WARNING **: 14:52:48.764: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552647180745	Marionette	INFO	Stopped listening on port 41519
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 32058, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552647306932	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.096VLvd2ztZp"
+*** You are running in headless mode.
+1552647307317	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552647307317	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552647308518	Marionette	INFO	Listening on port 40887
+1552647308551	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.cacharel.com.tr/styles/joinedFiles/compressed/emos_header_20190314-152827.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:581): dconf-WARNING **: 14:55:18.117: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552647576253	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0VDc3aI9vuj8"
+*** You are running in headless mode.
+1552647576610	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552647576610	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552647577993	Marionette	INFO	Listening on port 42281
+1552647578063	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:1445): dconf-WARNING **: 14:59:44.123: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://www.patirti.com/bagcik-detay-siyah-kazak-2/, line 3463: TypeError: data is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552647617771	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NOHpgRvzGVIm"
+*** You are running in headless mode.
+1552647618164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552647618164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552647619482	Marionette	INFO	Listening on port 33877
+1552647619588	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552647802166	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Div099VX1xiR"
+*** You are running in headless mode.
+1552647802580	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552647802580	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552647804109	Marionette	INFO	Listening on port 35071
+1552647804189	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-5BRXGDJ&t=gtm8&cid=1132637624.1552647820, line 98: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552647828473	Marionette	INFO	Stopped listening on port 35071
+1552648740909	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1gd7638joFDL"
+*** You are running in headless mode.
+1552648741819	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552648741819	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552648743488	Marionette	INFO	Listening on port 45297
+1552648743552	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1552648752098	Marionette	INFO	Stopped listening on port 45297
+[Parent 3627, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552648801546	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yYWrxaETMaRw"
+*** You are running in headless mode.
+1552648801914	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552648801915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552648803464	Marionette	INFO	Listening on port 38773
+1552648803574	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1552648817646	Marionette	INFO	Stopped listening on port 38773
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Parent 4205, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552648975434	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Q80UIQ81vlIA"
+*** You are running in headless mode.
+1552648975799	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552648975799	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552648977172	Marionette	INFO	Listening on port 34587
+1552648977261	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+JavaScript warning: https://defacto.api.useinsider.com/ins.js?id=10000181, line 833: unreachable code after return statement
+1552648991941	Marionette	INFO	Stopped listening on port 34587
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Parent 4739, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 4739, Gecko_IOThread] WARNING: pipe error (121): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552649072461	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jlhTnRKxHOA8"
+*** You are running in headless mode.
+1552649072849	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552649072849	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552649074418	Marionette	INFO	Listening on port 34677
+1552649074474	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+JavaScript warning: https://defacto.api.useinsider.com/ins.js?id=10000181, line 833: unreachable code after return statement
+1552649089714	Marionette	INFO	Stopped listening on port 34677
+[Parent 5452, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552649163625	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.aD3jRGlpjjyf"
+*** You are running in headless mode.
+1552649164011	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552649164011	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552649165403	Marionette	INFO	Listening on port 36943
+1552649165443	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WLJ46QC&cid=425732069.1552649173, line 98: unreachable code after return statement
+1552649176299	Marionette	INFO	Stopped listening on port 36943
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Parent 6033, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552649240591	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZCGng6v2gkwa"
+*** You are running in headless mode.
+1552649240967	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552649240968	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552649242428	Marionette	INFO	Listening on port 36755
+1552649242510	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WLJ46QC&cid=1461285886.1552649253, line 98: unreachable code after return statement
+JavaScript warning: https://cdn.infisecure.com/kratos-hepsiburada.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.infisecure.com/kratos-hepsiburada.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.infisecure.com/kratos-hepsiburada.js, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://cdn.infisecure.com/kratos-hepsiburada.js, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552649608851	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wATfIi0UL9Hj"
+*** You are running in headless mode.
+1552649609218	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552649609218	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552649610599	Marionette	INFO	Listening on port 46233
+1552649610666	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WHSRBXT&t=gtm410&cid=1393171615.1552649615, line 98: unreachable code after return statement
+1552649620832	Marionette	INFO	Stopped listening on port 46233
+[Parent 7555, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552649686599	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.18BHvyN8W1vS"
+*** You are running in headless mode.
+1552649686965	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552649686965	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552649688415	Marionette	INFO	Listening on port 41805
+1552649688509	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-WHSRBXT&t=gtm410&cid=126782692.1552649698, line 98: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552649829444	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.znVLyMfJe7RS"
+*** You are running in headless mode.
+1552649829878	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552649829878	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552649831330	Marionette	INFO	Listening on port 37777
+1552649831399	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-PGXD6D7&t=gtm2&cid=992465970.1552649840, line 98: unreachable code after return statement
+JavaScript warning: https://mcdnaff03.gittigidiyor.net/js/dlc1.43.js, line 1: SyntaxError: 09 is not a legal ECMA-262 octal constant
+1552649843760	Marionette	INFO	Stopped listening on port 37777
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Parent 8616, Gecko_IOThread] WARNING: pipe error (167): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552649921819	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5QaaqFUxH7Rv"
+*** You are running in headless mode.
+1552649922216	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552649922216	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552649923457	Marionette	INFO	Listening on port 40307
+1552649923535	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-PGXD6D7&t=gtm2&cid=1744430155.1552649929, line 98: unreachable code after return statement
+JavaScript warning: https://mcdnaff03.gittigidiyor.net/js/dlc1.43.js, line 1: SyntaxError: 09 is not a legal ECMA-262 octal constant
+1552649934070	Marionette	INFO	Stopped listening on port 40307
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+1552650529597	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uUI0uuNbxr9k"
+*** You are running in headless mode.
+1552650530012	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552650530013	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552650531375	Marionette	INFO	Listening on port 36021
+1552650531441	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-5T8R33&t=gtm3&cid=2106446444.1552650535, line 123: unreachable code after return statement
+1552650540877	Marionette	INFO	Stopped listening on port 36021
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Parent 10005, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552650582933	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.agWDyTDxPPLG"
+*** You are running in headless mode.
+1552650583340	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552650583340	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552650584755	Marionette	INFO	Listening on port 34533
+1552650584841	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-5T8R33&t=gtm3&cid=1953286439.1552650587, line 123: unreachable code after return statement
+1552650593278	Marionette	INFO	Stopped listening on port 34533
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Parent 10463, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Child 10620, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 718
+[Parent 10463, Gecko_IOThread] WARNING: pipe error (114): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 1514, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 1445, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 1420, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 1765, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 30669, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 30646, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 16752, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[Child 15392, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 13994, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[Child 13642, Chrome_ChildThread] WARNING: pipe error (36): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 13642, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[Child 13860, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Sandbox: Unexpected EOF, op 0 flags 00 path /usr/share/locale/en_US.UTF-8/LC_MESSAGES/libc.mo
+[Child 13806, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8257, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6859, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6837, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[Child 8189, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8167, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Sandbox: Unexpected EOF, op 0 flags 00 path /usr/share/locale/en_US.UTF-8/LC_MESSAGES/libc.mo
+[Child 6932, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 29291, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 29229, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 29207, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 14995, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 14893, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 15303, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[Child 27473, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 27452, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 28129, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 28058, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 28037, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Exiting due to channel error.
+[Child 15712, Chrome_ChildThread] WARNING: pipe error (37): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Exiting due to channel error.
+1552670806905	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oU5C4yRXTRJs"
+*** You are running in headless mode.
+1552670807702	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552670807702	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552670809162	Marionette	INFO	Listening on port 43813
+1552670809228	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-5T8R33&t=gtm3&cid=2038603102.1552670811, line 123: unreachable code after return statement
+1552670819602	Marionette	INFO	Stopped listening on port 43813
+[Parent 2837, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552671584774	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jNWlSVRgvaW9"
+*** You are running in headless mode.
+1552671585125	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552671585125	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552671586171	Marionette	INFO	Listening on port 35415
+1552671586197	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-5T8R33&t=gtm3&cid=52753842.1552671589, line 123: unreachable code after return statement
+1552671593519	Marionette	INFO	Stopped listening on port 35415
+[Parent 3679, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552671656001	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vS6XdFOK5I7z"
+*** You are running in headless mode.
+1552671656305	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552671656305	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552671657370	Marionette	INFO	Listening on port 44933
+1552671657415	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-5T8R33&t=gtm3&cid=2018275078.1552671659, line 123: unreachable code after return statement
+1552671665004	Marionette	INFO	Stopped listening on port 44933
+[Parent 4092, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552671672010	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.EuZ2I8X5SmQ5"
+*** You are running in headless mode.
+1552671672321	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552671672321	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552671673459	Marionette	INFO	Listening on port 34533
+1552671673514	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-5T8R33&t=gtm3&cid=1101704409.1552671676, line 123: unreachable code after return statement
+1552671680932	Marionette	INFO	Stopped listening on port 34533
+[Parent 4473, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552672097274	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BmDzrheBntMF"
+*** You are running in headless mode.
+1552672097563	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552672097564	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552672098548	Marionette	INFO	Listening on port 36695
+1552672098594	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+1552672108177	Marionette	INFO	Stopped listening on port 36695
+[Parent 5293, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552672374807	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pvE3zoiiBNwi"
+*** You are running in headless mode.
+1552672375159	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552672375159	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552672376187	Marionette	INFO	Listening on port 34221
+1552672376237	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+1552672387044	Marionette	INFO	Stopped listening on port 34221
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 5752, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552672528267	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.G105bY4vBf2w"
+*** You are running in headless mode.
+1552672528703	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552672528704	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552672529896	Marionette	INFO	Listening on port 45013
+1552672530009	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+1552672544988	Marionette	INFO	Stopped listening on port 45013
+[Parent 6715, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552672576095	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nDtSfmO2EWH1"
+*** You are running in headless mode.
+1552672576427	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552672576428	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552672577476	Marionette	INFO	Listening on port 41435
+1552672577522	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+1552672589941	Marionette	INFO	Stopped listening on port 41435
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 7181, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552672683416	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.S4p6jehQSueH"
+*** You are running in headless mode.
+1552672683699	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552672683699	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552672684777	Marionette	INFO	Listening on port 45601
+1552672684829	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: dft is not defined
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: dft is not defined
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+1552672698509	Marionette	INFO	Stopped listening on port 45601
+[Parent 7679, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552672967496	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TzA6NXHIyM5D"
+*** You are running in headless mode.
+1552672967873	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552672967873	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552672968892	Marionette	INFO	Listening on port 40645
+1552672968913	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+JavaScript warning: https://defacto.api.useinsider.com/ins.js?id=10000181, line 833: unreachable code after return statement
+1552672982694	Marionette	INFO	Stopped listening on port 40645
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 8368, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552673099287	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ao2urzQpLqWd"
+*** You are running in headless mode.
+1552673099615	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552673099615	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552673100862	Marionette	INFO	Listening on port 40763
+1552673100903	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+JavaScript warning: https://defacto.api.useinsider.com/ins.js?id=10000181, line 833: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552673141522	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.So918bIGJUnl"
+*** You are running in headless mode.
+1552673141840	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552673141840	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552673142819	Marionette	INFO	Listening on port 33381
+1552673142828	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+JavaScript warning: https://defacto.api.useinsider.com/ins.js?id=10000181, line 833: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552673223110	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WTBO7d46aQMB"
+*** You are running in headless mode.
+1552673223433	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552673223433	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552673224946	Marionette	INFO	Listening on port 40159
+1552673225031	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://defacto.api.useinsider.com/ins.js?id=10000181, line 833: unreachable code after return statement
+1552673239404	Marionette	INFO	Stopped listening on port 40159
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Parent 9846, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 9846, Gecko_IOThread] WARNING: pipe error (117): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552673326144	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fixb4Oz1psX9"
+*** You are running in headless mode.
+1552673326429	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552673326429	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552673327577	Marionette	INFO	Listening on port 41181
+1552673327648	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+JavaScript warning: https://defacto.api.useinsider.com/ins.js?id=10000181, line 833: unreachable code after return statement
+1552673334445	Marionette	INFO	Stopped listening on port 41181
+[Parent 10284, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552673479653	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LtjadCg8rBDx"
+*** You are running in headless mode.
+1552673480026	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552673480026	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552673481150	Marionette	INFO	Listening on port 38111
+1552673481182	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+JavaScript warning: https://defacto.api.useinsider.com/ins.js?id=10000181, line 833: unreachable code after return statement
+1552673489185	Marionette	INFO	Stopped listening on port 38111
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Parent 10795, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552673532416	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8cfaZbWcztgt"
+*** You are running in headless mode.
+1552673532694	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552673532694	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552673533785	Marionette	INFO	Listening on port 38537
+1552673533821	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+JavaScript warning: https://defacto.api.useinsider.com/ins.js?id=10000181, line 833: unreachable code after return statement
+1552673547870	Marionette	INFO	Stopped listening on port 38537
+[Parent 11180, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 11180, Gecko_IOThread] WARNING: pipe error (120): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552673783895	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vzxZXlpsbSgP"
+*** You are running in headless mode.
+1552673784266	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552673784266	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552673785377	Marionette	INFO	Listening on port 42069
+1552673785415	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+JavaScript warning: https://defacto.api.useinsider.com/ins.js?id=10000181, line 833: unreachable code after return statement
+1552673795144	Marionette	INFO	Stopped listening on port 42069
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Parent 11800, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 11800, Gecko_IOThread] WARNING: pipe error (119): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552674213400	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yL1d67LoIFcq"
+*** You are running in headless mode.
+1552674213686	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552674213686	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552674214685	Marionette	INFO	Listening on port 45063
+1552674214709	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+JavaScript warning: https://defacto.api.useinsider.com/ins.js?id=10000181, line 833: unreachable code after return statement
+1552674227116	Marionette	INFO	Stopped listening on port 45063
+[Parent 12574, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552674233181	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.A247B3184Dt1"
+*** You are running in headless mode.
+1552674233470	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552674233470	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552674234497	Marionette	INFO	Listening on port 40707
+1552674234585	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+JavaScript warning: https://defacto.api.useinsider.com/ins.js?id=10000181, line 833: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1552674430537	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jOL4RYQqj4EF"
+*** You are running in headless mode.
+1552674430875	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552674430875	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552674431945	Marionette	INFO	Listening on port 44249
+1552674432047	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+JavaScript warning: https://defacto.api.useinsider.com/ins.js?id=10000181, line 833: unreachable code after return statement
+1552674438947	Marionette	INFO	Stopped listening on port 44249
+[Child 13579, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 718
+[Child 13579, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 718
+[Parent 13427, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552674676381	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.T2dBmi6vBbck"
+*** You are running in headless mode.
+1552674676725	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552674676725	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552674677913	Marionette	INFO	Listening on port 45723
+1552674677987	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+JavaScript warning: https://defacto.api.useinsider.com/ins.js?id=10000181, line 833: unreachable code after return statement
+1552674684855	Marionette	INFO	Stopped listening on port 45723
+1552674737640	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RvXtsofJblsv"
+*** You are running in headless mode.
+1552674737933	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552674737933	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552674738960	Marionette	INFO	Listening on port 43519
+1552674739047	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+JavaScript warning: https://defacto.api.useinsider.com/ins.js?id=10000181, line 833: unreachable code after return statement
+1552674749834	Marionette	INFO	Stopped listening on port 43519
+[Parent 14337, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 14337, Gecko_IOThread] WARNING: pipe error (121): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552674775579	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5fmsDCf3HLZG"
+*** You are running in headless mode.
+1552674775867	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552674775867	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552674776847	Marionette	INFO	Listening on port 41971
+1552674776892	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+JavaScript warning: https://defacto.api.useinsider.com/ins.js?id=10000181, line 833: unreachable code after return statement
+1552674788456	Marionette	INFO	Stopped listening on port 41971
+[Parent 14746, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552674884345	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sIgzrCV0gndc"
+*** You are running in headless mode.
+1552674884649	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552674884649	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552674885669	Marionette	INFO	Listening on port 35193
+1552674885750	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: personaclick is not defined
+JavaScript warning: https://defacto.api.useinsider.com/ins.js?id=10000181, line 833: unreachable code after return statement
+1552674898223	Marionette	INFO	Stopped listening on port 35193
+[Parent 15294, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552674975546	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.n4cBGmbNRcDX"
+*** You are running in headless mode.
+1552674975835	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552674975835	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552674976865	Marionette	INFO	Listening on port 35551
+1552674976956	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+JavaScript warning: https://defacto.api.useinsider.com/ins.js?id=10000181, line 833: unreachable code after return statement
+1552674989910	Marionette	INFO	Stopped listening on port 35551
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 15761, Gecko_IOThread] WARNING: pipe error (119): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552675025583	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4RFTHBi188rr"
+*** You are running in headless mode.
+1552675025920	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552675025920	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552675026923	Marionette	INFO	Listening on port 36707
+1552675026988	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+JavaScript warning: https://defacto.api.useinsider.com/ins.js?id=10000181, line 833: unreachable code after return statement
+1552675038263	Marionette	INFO	Stopped listening on port 36707
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5F0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 16175, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552675150623	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yqjaku7jeiQW"
+*** You are running in headless mode.
+1552675150903	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552675150903	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552675151880	Marionette	INFO	Listening on port 35181
+1552675151937	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.defacto.com.tr/dik-yakali-suni-deri-ceket-963008, line 1: ReferenceError: runPRZPlugin is not defined
+JavaScript warning: https://defacto.api.useinsider.com/ins.js?id=10000181, line 833: unreachable code after return statement
+1552675160783	Marionette	INFO	Stopped listening on port 35181
+[Parent 16647, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349

@@ -34,6 +34,7 @@ class ApiIndexView(APIView):
         result = {}
         tag_name = []
         for key, value in data.items():
+            print("line 37", key, value)
             if "url" != key:
                 pars = BeautifulSoup(value, "html.parser").find()
                 if pars.get("id", False):
@@ -45,9 +46,14 @@ class ApiIndexView(APIView):
                 elif pars.get("class", False):
                     parsed_data = "." + " ".join(pars.get("class"))
                     result[key] = parsed_data + "|" + pars.name
+                elif pars.get('itemprop', False):
+                    parsed_data = "&" + pars.get("itemprop")
+                    result[key] = parsed_data + "|" + pars.name
                 else:
+                    print("line 50", key, tag_name)
                     tag_name.append(key)
             else:
+                print("line 53", key, value, result)
                 result[key] = value
         if tag_name:
             return [result, tag_name]
@@ -57,7 +63,7 @@ class ApiIndexView(APIView):
         
         clean_data = self.clean_data()
         data = self.get_attribute_from_html(clean_data)
-        print(data)
+        print("line 63", data)
         if isinstance(data, dict):
             
             product = ProductTag.objects.create()
@@ -93,25 +99,39 @@ class ScraperView(generic.View):
         #print(dir(pars))
         for obj in data:
             key, value, tag_name = obj.get("field"), obj.get("value"), obj.get("tag_name")
-            print(key, value, tag_name)
+            # print(key, value, tag_name)
             #print(pars)
             if value.startswith("."):
-                print("PARS TYPE: ", type(pars))
-                # result[key] = pars.find_all(tag_name, {"class":value[1:]})[0].text
-                result[key] = pars.find_all(tag_name, {"id": value[1:]})[0].text if pars.find_all(tag_name, {"id": value[1:]}) else "yoxdu"
+                print("line 102", key, value, tag_name)
+                # print("PARS TYPE: ", pars)
+                #result[key] = pars.find_all(tag_name, {"class":value[1:]})[0].text
+                result[key] = pars.find_all(tag_name, {"class": value[1:]})[0].text if pars.find_all(tag_name, {"class": value[1:]}) else "yoxdu"
                 # print("//{}[{}]".format(tag_name," or ".join(["@class='{}'".format(item) for item in value[1:].split(" ")])))
                 #result[key] = driver.find_elements_by_xpath("//{}[{}]".format(tag_name," or ".join(["@class='{}'".format(item) for item in value[1:].split(" ")])))[0].text
                 
-            # elif value.startswith("@"):
-            #     result[key] = driver.find_element_by_xpath('//*[@src="{}"]'.format(value[1:])).get_attribute("src")
+            elif value.startswith("@"):
+                print("line 110", key, value, tag_name)
+                result[key] = driver.find_element_by_xpath('//*[@src="{}"]'.format(value[1:])).get_attribute("src")
+            elif value.startswith("&"):
+                print("line 116", key, value, tag_name)
+                result[key] = driver.find_element_by_xpath('//*[@itemprop="{}"]'.format(value[1:])).text
 
             elif value.startswith("<"):
+                print("line 114", key, value, tag_name)
                 pars = BeautifulSoup(value, "html.parser").find()
-                print(pars)
-                result[key] = driver.find_elements_by_xpath("//*[contains(text(), '{}')]".format(pars.text))[0].text
+                print(pars.text)
+
+                # sozler = list(filter(lambda x: x.strip(), pars.text.split(" ")))
+                # print(driver.find_elements_by_xpath("//*[contains(text(), 'Dik') and contains(text(), 'Yakali') and]".format(pars.text))[0].text)
+
+            
+                result[key] = driver.find_elements_by_xpath("//*[contains(text(), '{}')]".format(pars.text))[0].text if driver.find_elements_by_xpath("//*[contains(text(), '{}')]".format(pars.text))[0] else "yoxdu"
+                
+                # <h1 itemprop="name">Dik Yakalı Suni Deri Ceket</h1>
                 
     
             elif value.startswith("#"):
+                print("line 121", key, value, tag_name)
                 result[key] = pars.find_all(tag_name, {"id": value[1:]})[0].text if pars.find_all(tag_name, {"id": value[1:]}) else "yoxdu"
                 #result[key] = driver.find_element_by_id(value[1:]).text
         driver.quit()

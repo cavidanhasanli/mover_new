@@ -11,4 +11,3 @@ class ProductTagAdmin(admin.ModelAdmin):
     inlines = [ProductItemTabularInline]
 
 
-# admin.site.register(ProductTag)

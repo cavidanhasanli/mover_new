@@ -39,15 +39,18 @@ class ApiIndexView(APIView):
                 pars = BeautifulSoup(value, "html.parser").find()
                 if pars.get("id", False):
                     parsed_data = "#" + pars.get("id")
-                    result[key] = parsed_data + "|" + pars.name
                 elif pars.get("src", False):
-                    parsed_data = "@" + pars.get("src")
-                    result[key] = parsed_data  + "|" + pars.name
+                    parsed_data = "@" + pars.get("alt") if pars.get("alt") else "@" + "None"
+                    # result[key] = parsed_data
+                    result[key] = parsed_data + '|' + pars.name
                 elif pars.get("class", False):
                     parsed_data = "." + " ".join(pars.get("class"))
-                    result[key] = parsed_data + "|" + pars.name
+                    result[key] = parsed_data
                 elif pars.get('itemprop', False):
                     parsed_data = "&" + pars.get("itemprop")
+                    result[key] = parsed_data + "|" + pars.name
+                elif pars.get('href', False):
+                    parsed_data = "^" + pars.get("href")
                     result[key] = parsed_data + "|" + pars.name
                 else:
                     print("line 50", key, tag_name)
@@ -111,21 +114,30 @@ class ScraperView(generic.View):
                 
             elif value.startswith("@"):
                 print("line 110", key, value, tag_name)
-                result[key] = driver.find_element_by_xpath('//*[@src="{}"]'.format(value[1:])).get_attribute("src")
+                if value[1:] == "None":
+                    result[key] = driver.find_elements_by_xpath('//*'.format(tag_name))[0].get_attribute("src")
+                else:
+                    result[key] = driver.find_element_by_xpath('//*[@alt="{}"]'.format(value[1:])).get_attribute("src")
             elif value.startswith("&"):
                 print("line 116", key, value, tag_name)
                 result[key] = driver.find_element_by_xpath('//*[@itemprop="{}"]'.format(value[1:])).text
+            elif value.startswith("^"):
+                print("line 123", key,value,tag_name)
+                result[key] = driver.find_element_by_xpath('//*[@href="{}"]'.format(value[1:])).text
+                
+                
 
             elif value.startswith("<"):
                 print("line 114", key, value, tag_name)
                 pars = BeautifulSoup(value, "html.parser").find()
-                print(pars.text)
-
+                print("line 131",pars)
+    
                 # sozler = list(filter(lambda x: x.strip(), pars.text.split(" ")))
                 # print(driver.find_elements_by_xpath("//*[contains(text(), 'Dik') and contains(text(), 'Yakali') and]".format(pars.text))[0].text)
 
             
-                result[key] = driver.find_elements_by_xpath("//*[contains(text(), '{}')]".format(pars.text))[0].text if driver.find_elements_by_xpath("//*[contains(text(), '{}')]".format(pars.text))[0] else "yoxdu"
+                result[key] = driver.find_elements_by_xpath("//{}".format(pars.name))[0].text
+                print('line 138', result[key])
                 
                 # <h1 itemprop="name">Dik Yakalı Suni Deri Ceket</h1>
                 
@@ -133,6 +145,7 @@ class ScraperView(generic.View):
             elif value.startswith("#"):
                 print("line 121", key, value, tag_name)
                 result[key] = pars.find_all(tag_name, {"id": value[1:]})[0].text if pars.find_all(tag_name, {"id": value[1:]}) else "yoxdu"
+                print('line 145', result[key])
                 #result[key] = driver.find_element_by_id(value[1:]).text
         driver.quit()
         return result
@@ -142,4 +155,3 @@ class ScraperView(generic.View):
         obj = ProductSerializers(data)
         latest_result = self.scrapper(data.name, obj.data.get("product_tags"))
         return JsonResponse({"status":"OK", "data": latest_result})
-

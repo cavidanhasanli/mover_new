@@ -39,6 +39,7 @@ class ApiIndexView(APIView):
                 pars = BeautifulSoup(value, "html.parser").find()
                 if pars.get("id", False):
                     parsed_data = "#" + pars.get("id")
+                    result[key] = parsed_data 
                 elif pars.get("src", False):
                     parsed_data = "@" + pars.get("alt") if pars.get("alt") else "@" + "None"
                     # result[key] = parsed_data

@@ -4909,3 +4909,21 @@ JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-5T8R33&t=gtm3
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 [Parent 17225, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552827805778	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FkS5GguDxkhe"
+*** You are running in headless mode.
+1552827806076	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552827806076	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552827807073	Marionette	INFO	Listening on port 39109
+1552827807096	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.pierrecardin.com.tr/styles/joinedFiles/compressed/emos_header_20190311-110727.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1552827819125	Marionette	INFO	Stopped listening on port 39109
+[Parent 18237, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1552827997122	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PbTrg2fiiOvH"
+*** You are running in headless mode.
+1552827997423	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1552827997423	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1552827998550	Marionette	INFO	Listening on port 33049
+1552827998630	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.pierrecardin.com.tr/styles/joinedFiles/compressed/emos_header_20190311-110727.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1552828011800	Marionette	INFO	Stopped listening on port 33049
+[Parent 18701, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
